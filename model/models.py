@@ -28,40 +28,41 @@ class Store:
                  isVitalityHealth=None, town=None, updateTime=datetime.today()):
         """
 
-        :param address: 
-        :param faxNo: 
-        :param poiid: 猜測是門市id
-        :param poiName: 猜測是門市名字
+        :param address: 地址
+        :param faxNo: 接收傳真服務(付費)
+        :param poiid: 門市店號
+        :param poiName: 門市店名
         :param specialStoreKind: 
         :param storeUrl: 
-        :param telno: 
-        :param x: 
-        :param y: 
-        :param is7WiFi: 
-        :param isATM: 
-        :param isCityCafe: 
-        :param isCorn: 
-        :param isDining: 
+        :param telno: 電話
+        :param x: 經度 Longitude
+        :param y: 緯度 Latitude
+        :param is7WiFi: ibon WiFi
+        :param isATM: ATM
+        :param isCityCafe: 外送咖啡服務
+        :param isCorn: 黃金玉米(蒸煮)
+        :param isDining: 座位區
         :param isFruit: 
-        :param isHealthStations: 
+        :param isHealthStations: 千禧健康小站
         :param isHotDog: 
-        :param isIbon: 
-        :param isIce: 
-        :param isIceCream: 
+        :param isIbon: ibon
+        :param isIce: 思樂冰
+        :param isIceCream: 霜淇淋
         :param isKindRoom: 
-        :param isLavatory: 
-        :param isMakeup: 
-        :param isMisterDonuts: 
-        :param isMuji: 
-        :param isOpenStore: 
-        :param isOrganic: 
-        :param isParking: 
+        :param isLavatory: 廁所
+        :param isMakeup: 美妝
+        :param isMisterDonuts: Mister Donuts 甜甜圈
+        :param isMuji: 無印良品
+        :param isOpenStore: OPEN! STORE
+        :param isOrganic: 台塑有機蔬菜
+        :param isParking: 停車場
         :param isStarBucks: 
         :param isSweetPotato: 
-        :param isTea: 
+        :param isTea: 現萃茶
         :param isUnionPay: 
-        :param isVitalityHealth: 
+        :param isVitalityHealth: 生機活力健康專區
         :param town: town 
+        :param updateTime: updateTime
         """
         self.address = address
         self.faxNo = faxNo
