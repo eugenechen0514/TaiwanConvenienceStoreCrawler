@@ -187,7 +187,7 @@ def __parseCities(cityData):
 
 
 def __main__():
-    # data loader
+    # Load data
     cities = __parseCities(__CITY_DATA__)
 
     # Get town
