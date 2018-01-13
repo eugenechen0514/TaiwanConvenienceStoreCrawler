@@ -2,7 +2,7 @@ import requests
 from xml.etree.ElementTree import fromstring, tostring
 from xmljson import badgerfish as bf
 import pickle
-from model.models import City, Town, Store
+from model.SevenElevenModels import City, Town, Store
 
 
 __URL_7_11__ = 'http://emap.pcsc.com.tw/EMapSDK.aspx'
