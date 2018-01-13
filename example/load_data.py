@@ -1,5 +1,4 @@
 import pickle
-from model.models import City, Town, Store
 
 __EXPORT_FILE__ = "../data/city_7_11.dat"
 
