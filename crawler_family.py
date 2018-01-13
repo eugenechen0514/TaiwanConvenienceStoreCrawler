@@ -1,6 +1,4 @@
 import requests
-from xml.etree.ElementTree import fromstring, tostring
-from xmljson import badgerfish as bf
 import pickle
 from model.FamilyModel import City, Town, Store
 from urllib.parse import urlencode
