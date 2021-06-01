@@ -8,5 +8,5 @@ public==0.0.38
 query-string==0.0.12
 requests==2.18.4
 setupfiles==0.0.50
-urllib3==1.22
+urllib3==1.26.5
 xmljson==0.1.9
